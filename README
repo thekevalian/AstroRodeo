@@ -1,0 +1,15 @@
+Template for our application:
+
+api: code for our backend
+cd api
+python -m venv venv        # optional but recommended
+source venv/bin/activate   # (on macOS/Linux)
+# or venv\Scripts\activate  # (on Windows)
+
+pip install -r requirements.txt
+python index.py
+
+frontend: code for our front end
+cd frontend
+npm install
+npm run dev
